@@ -16,7 +16,7 @@ jobs:
     - name: Copy site from pem-eg-website to public
       run: |
         rm -rf public/*
-        cp -r pem-eg-website/* public/
+        cp -r /* public/
 
     - name: Deploy to Firebase Hosting
       run: npx firebase deploy --only hosting --token "$FIREBASE_TOKEN"
