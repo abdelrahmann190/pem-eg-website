@@ -3,26 +3,17 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - main  # Change to your deployment branch
+      - main  # Change if your deployment branch is different
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20' # Match your project Node version
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build project
-      run: npm run build
-
-    - name: Deploy to Firebase
+    - name: Deploy to Firebase Hosting
       run: npx firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
