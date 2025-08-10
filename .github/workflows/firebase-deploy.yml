@@ -3,7 +3,7 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - main  # Change if your deployment branch is different
+      - main
 
 jobs:
   deploy:
@@ -12,6 +12,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+
+    - name: Copy site from pem-eg-website to public
+      run: |
+        rm -rf public/*
+        cp -r pem-eg-website/* public/
 
     - name: Deploy to Firebase Hosting
       run: npx firebase deploy --only hosting --token "$FIREBASE_TOKEN"
