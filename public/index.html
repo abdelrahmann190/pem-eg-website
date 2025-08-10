@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ar"> <!--<![endif]-->
+
+<head>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title data-i18n="companyName">P.E.M</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="header-logo">
+			<a href="index.html" data-i18n="companyName">P.E.M</a>
+		</div>
+
+
+
+		<a id="header-menu-trigger" href="#0">
+			<span class="header-menu-text" data-i18n="menu">Menu</span>
+			<span class="header-menu-icon"></span>
+		</a>
+
+		<nav id="menu-nav-wrap">
+			<a href="#0" class="close-button" title="close"><span data-i18n="close">Close</span></a>
+
+			<h3 class="ltr-orientation">P.E.M</h3>
+
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="" data-i18n="home">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="" data-i18n="about">About</a></li>
+				<li><a class="smoothscroll" href="#services" title="" data-i18n="services">Services</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="" data-i18n="works">Works</a></li>
+				<li><a class="smoothscroll" href="#contact" title="" data-i18n="contact">Contact</a></li>
+			</ul>
+
+
+			<ul class="header-social-list">
+
+				<a href="https://www.facebook.com/pem.power3/" target="_blank" style="margin-right: 10px;"><i
+						class="fa fa-facebook-square"></i></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/company/power-electro-mechanical-pem/" target="_blank"
+						style="margin-right: 10px;"><i class="fa fa-linkedin"></i></a>
+				</li>
+			</ul>
+		</nav> <!-- end #menu-nav-wrap -->
+	</header> <!-- end header -->
+
+	<!-- home
+   ================================================== -->
+	<section id="home">
+		<div class="overlay"></div>
+		<div class="home-content-table">
+			<div class="home-content-tablecell">
+				<div class="row">
+					<div class="col-twelve">
+						<h3 class="animate-intro" data-i18n="companyName">P.E.M (Power Electro-Mechanical)</h3>
+						<h1 class="animate-intro" data-i18n="companyTagline">
+							We Specialize in Electrical Generators.
+						</h1>
+						<div class="more animate-intro">
+							<a class="button stroke"
+								href="https://drive.google.com/uc?export=download&id=1Oi7-J1O0OzOE0gBlCstzy0gIhh8RIqDf"
+								download>
+								<span data-i18n="ourPortfolio">Our portfolio</span>
+							</a>
+						</div>
+					</div> <!-- end col-twelve -->
+				</div> <!-- end row -->
+			</div> <!-- end home-content-tablecell -->
+		</div> <!-- end home-content-table -->
+
+		<ul class="home-social-list">
+			<li class="animate-intro">
+				<a href="#" data-lang="en" class="lang-btn" title="English">
+					<img class="flag-icon" src="https://flagcdn.com/w40/gb.png" alt="English">
+				</a>
+			</li>
+
+			<li class="animate-intro">
+				<a href="#" data-lang="ar" class="lang-btn" title="Arabic">
+					<img class="flag-icon" src="https://flagcdn.com/w40/eg.png" alt="Arabic" width="24" height="16">
+				</a>
+				<script>
+					// Check the saved language setting in localStorage
+					const savedLanguage = localStorage.getItem('language');
+					const currentLanguage = document.documentElement.lang;
+
+					// Set the active class based on the saved language
+					if (savedLanguage) {
+						docWSument.querySelectorAll('.lang-btn').forEach(btn => {
+							btn.classList.remove('active');
+							if (btn.getAttribute('data-lang') === savedLanguage) {
+								btn.classList.add('active');
+							}
+						});
+					} else if (currentLanguage === "ar") {
+						document.querySelector('a[data-lang="ar"]').classList.add("active");
+					}
+				</script>
+			</li>
+
+			<li class="animate-intro">
+				<a href="https://www.facebook.com/pem.power3/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+			</li>
+			<li class="animate-intro">
+				<a href="https://www.linkedin.com/company/power-electro-mechanical-pem/" target="_blank"><i
+						class="fa fa-linkedin"></i></a>
+			</li>
+		</ul> <!-- end home-social-list -->
+
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">
+				<span data-i18n="scrollDown">Scroll Down</span>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>
+	</section> <!-- end home -->
+
+	<!-- about
+   ================================================== -->
+	<section id="about">
+		<div class="row about-wrap">
+			<div class="col-full">
+				<div class="about-profile-bg"></div>
+				<div class="intro">
+					<h3 class="animate-this" data-i18n="aboutTitle">About Us</h3>
+					<p class="lead animate-this" data-i18n="aboutText"><span>P.E.M</span> is a trusted provider of
+						diesel generator solutions,
+						delivering high-quality services that balance time, cost, and local
+						market needs through the expertise of our team..</p>
+				</div>
+			</div> <!-- end col-full  -->
+		</div> <!-- end about-wrap  -->
+	</section> <!-- end about -->
+
+	<!-- services
+   ================================================== -->
+	<section id="services">
+		<div class="overlay"></div>
+		<div class="gradient-overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+			<div class="col-full">
+				<h3 data-i18n="servicesTitle">Services</h3>
+				<h1 data-i18n="servicesSubtitle">What We Do.</h1>
+			</div> <!-- end col-full -->
+		</div> <!-- end row -->
+
+		<div class="row services-content">
+			<div class="services-list block-1-2 block-tab-full group">
+				<div class="bgrid service-item animate-this">
+					<div class="service-icon-wrapper">
+						<img src="images/services/gen.png" alt="Generator Icon" class="service-icon">
+					</div>
+					<div class="service-content">
+						<h3 class="h05" data-i18n="service1Title">Generator Supply and Installation</h3>
+						<p data-i18n="service1Desc">We provide a complete range of high-performance generators, tailored
+							to various power
+							capacities, ensuring reliable energy solutions for projects of any size.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+					<div class="service-icon-wrapper">
+						<img src="images/services/fuel.png" alt="Fuel Icon" class="service-icon">
+					</div>
+					<div class="service-content">
+						<h3 class="h05" data-i18n="service2Title">Fuel Systems (Tanks, Pumps, and Installation)</h3>
+						<p data-i18n="service2Desc">Complete fuel solutions, including the supply of durable fuel tanks,
+							premium-grade fuel
+							pumps, and the design and
+							installation of integrated fuel systems — all engineered for maximum efficiency, safety, and
+							compliance with industry
+							standards.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+					<div class="service-icon-wrapper">
+						<img src="images/services/panel.png" alt="Electrical Panel Icon" class="service-icon">
+					</div>
+					<div class="service-content">
+						<h3 class="h05" data-i18n="service3Title">Electrical Panels Fabrication</h3>
+						<p data-i18n="service3Desc">We fabricate high-quality electrical panels, built for precision and
+							engineered to meet
+							strict safety standards,
+							ensuring efficient and reliable power distribution.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+					<div class="service-icon-wrapper">
+						<img src="images/services/steel.png" alt="Steel Icon" class="service-icon">
+					</div>
+					<div class="service-content">
+						<h3 class="h05" data-i18n="service4Title">Steel Fabrication</h3>
+						<p data-i18n="service4Desc">Our steel fabrication services include the custom design and
+							manufacture of metal structures
+							for industrial, commercial,
+							and specialized applications, ensuring superior strength and durability.
+						</p>
+					</div>
+				</div>
+
+				<div class="bgrid service-item animate-this">
+					<div class="service-icon-wrapper">
+						<img src="images/services/sound.png" alt="No-Sound Icon" class="service-icon">
+					</div>
+					<div class="service-content">
+						<h3 class="h05" data-i18n="service5Title">Sound Insulation</h3>
+						<p data-i18n="service5Desc">Advanced sound insulation solutions, effectively reducing noise
+							pollution and
+							creating safer, quieter, and
+							more productive industrial work environments.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+			</div> <!-- end services-list -->
+		</div> <!-- end services-content -->
+	</section> <!-- end services -->
+
+	<!-- products
+   ================================================== -->
+	<section id="products">
+		<div class="row narrow section-intro with-bottom-sep-dark animate-this">
+			<div class="overlay"></div>
+			<div class="gradient-overlay"></div>
+			<div class="col-full">
+				<h3 style="color: darkgrey;" data-i18n="productsTitle">Our Products</h3>
+				<h1 data-i18n="productsSubtitle">Premium Generator Solutions</h1>
+			</div>
+		</div>
+
+		<div class="row products-content animate-this">
+			<div class="col-twelve">
+				<!-- Product Filter -->
+				<div class="products-filter animate-intro animate-this">
+					<a href="#" data-filter="*" class="current" data-i18n="allProducts">All Products</a>
+					<a href="#" data-filter=".cabin" data-i18n="isolationCabins">Isolation Cabins</a>
+					<a href="#" data-filter=".fuel_systems" data-i18n="fuelSystems">Fuel Systems</a>
+					<a href="#" data-filter=".exhaust_systems" data-i18n="exhaustSystems">Exhaust Systems</a>
+					<a href="#" data-filter=".air_filter" data-i18n="airFiltration">Air Filtration</a>
+					<a href="#" data-filter=".trailer" data-i18n="trailers">Trailers</a>
+					<a href="#" data-filter=".antivibration" data-i18n="antivibration">Anti-Vibrations</a>
+					<a href="#" data-filter=".alarms" data-i18n="alarmSystems">Alarm & Protection Systems</a>
+					<a href="#" data-filter=".control_panels" data-i18n="controlPanels">Control Panels</a>
+					<a href="#" data-filter=".duct" data-i18n="ducting">Ducting & Ventilation</a>
+				</div>
+
+				<!-- Product Carousel -->
+				<div class="products-carousel-container">
+					<div class="products-carousel-wrapper">
+						<div class="products-carousel">
+							<!-- Product 1 -->
+							<div class="product-card cabin" data-product="1">
+								<div class="product-img">
+									<img src="images/products/dropover.jpg" alt="Drop Over Canopy">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Drop Over Canopy</h3>
+									<span class="product-category">Isolation Cabin</span>
+								</div>
+							</div>
+
+							<!-- Product 2 -->
+							<div class="product-card cabin" data-product="2">
+								<div class="product-img">
+									<img src="images/products/container.jpg" alt="Container Canopy">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Container Canopy</h3>
+									<span class="product-category">Isolation Cabin</span>
+								</div>
+							</div>
+
+							<!-- Product 3 -->
+							<div class="product-card cabin" data-product="3">
+								<div class="product-img">
+									<img src="images/products/weathered.jpg" alt="Weathered Canopy">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Weathered Canopy</h3>
+									<span class="product-category">Isolation Cabin</span>
+								</div>
+							</div>
+
+							<!-- Product 4 -->
+							<div class="product-card cabin" data-product="4">
+								<div class="product-img">
+									<img src="images/products/bolt.jpg" alt="Bolt Type Canopy">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Bolt Type Canopy</h3>
+									<span class="product-category">Isolation Cabin</span>
+								</div>
+							</div>
+
+							<!-- Product 5 -->
+							<div class="product-card fuel_systems" data-product="5">
+								<div class="product-img">
+									<img src="images/products/pumps.jpg" alt="Electric Fuel Pumps">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Electric Fuel Pumps</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 6 -->
+							<div class="product-card fuel_systems" data-product="6">
+								<div class="product-img">
+									<img src="images/products/hpump.jpg" alt="Hand Pumps">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Hand Pumps</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 7 -->
+							<div class="product-card fuel_systems" data-product="7">
+								<div class="product-img">
+									<img src="images/products/fswitch.jpg" alt="Floating switches">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Floating switches</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 8 -->
+							<div class="product-card fuel_systems" data-product="7">
+								<div class="product-img">
+									<img src="images/products/svalve.jpg" alt="Solenoid Valves">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Solenoid Valves</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 9 -->
+							<div class="product-card fuel_systems" data-product="9">
+								<div class="product-img">
+									<img src="images/products/gauge.jpg" alt="Pressure Gauge">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Fuel Pressure Gauges</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 10 -->
+							<div class="product-card fuel_systems" data-product="10">
+								<div class="product-img">
+									<img src="images/products/tempG.jpg" alt="Temperature Gauge">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Fuel Temperature Gauge</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 11 -->
+							<div class="product-card fuel_systems" data-product="11">
+								<div class="product-img">
+									<img src="images/products/ftank.jpg" alt="Fuel Tanks">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Fuel Tanks</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 12 -->
+							<div class="product-card fuel_systems" data-product="12">
+								<div class="product-img">
+									<img src="images/products/fline.jpg" alt="Fuel Lines">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Fuel Lines</h3>
+									<span class="product-category">Fuel Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 13 -->
+							<div class="product-card exhaust_systems" data-product="13">
+								<div class="product-img">
+									<img src="images/products/exhaust.JPG" alt="Residential Muffler (Silencer)">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Residential Muffler (Silencer)</h3>
+									<span class="product-category">Exhaust Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 14 -->
+							<div class="product-card exhaust_systems" data-product="14">
+								<div class="product-img">
+									<img src="images/products/eline.JPG" alt="Exhaust Lines">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Exhaust Lines</h3>
+									<span class="product-category">Exhaust Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 15 -->
+							<div class="product-card exhaust_systems" data-product="14">
+								<div class="product-img">
+									<img src="images/products/fconnection.jpg" alt="Flexcible Connections">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Flexcible Connections</h3>
+									<span class="product-category">Exhaust Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 16 -->
+							<div class="product-card air_filter" data-product="16">
+								<div class="product-img">
+									<img src="images/products/fhousing.jpg" alt="Heavy Duty Air Filter Housing">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Heavy Duty Air Filter Housing</h3>
+									<span class="product-category">Air Filtration</span>
+								</div>
+							</div>
+
+							<!-- Product 17 -->
+							<div class="product-card air_filter" data-product="17">
+								<div class="product-img">
+									<img src="images/products/sfilter.jpg" alt="Sand Trap Filter">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Sand Trap Filter</h3>
+									<span class="product-category">Air Filtration</span>
+								</div>
+							</div>
+
+							<!-- Product 18 -->
+							<div class="product-card trailer" data-product="18">
+								<div class="product-img">
+									<img src="images/products/trailer.jpg" alt="Generator Trailer">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Trailer 1X</h3>
+									<span class="product-category">Trailers</span>
+								</div>
+							</div>
+
+							<!-- Product 19 -->
+							<div class="product-card antivibration" data-product="19">
+								<div class="product-img">
+									<img src="images/products/ps1.jpg" alt="Anti Vibration PS1">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Anti Vibration PS1</h3>
+									<span class="product-category">Anti-Vibrations</span>
+								</div>
+							</div>
+
+							<!-- Product 20 -->
+							<div class="product-card antivibration" data-product="20">
+								<div class="product-img">
+									<img src="images/products/ps2.jpg" alt="Anti Vibration PS2">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Anti Vibration PS2</h3>
+									<span class="product-category">Anti-Vibrations</span>
+								</div>
+							</div>
+
+							<!-- Product 21 -->
+							<div class="product-card alarms" data-product="21">
+								<div class="product-img">
+									<img src="images/products/aalarm.jpg" alt="Audiable & Visual Alarm">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Audiable & Visual Alarm</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 22 -->
+							<div class="product-card alarms" data-product="22">
+								<div class="product-img">
+									<img src="images/products/vrelay.jpg" alt="Earth Fault Relay">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Earth Fault Relay</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 23 -->
+							<div class="product-card alarms" data-product="23">
+								<div class="product-img">
+									<img src="images/products/eclock.jpg" alt="Programmable Timer">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Programmable Timer</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 24 -->
+							<div class="product-card alarms" data-product="24">
+								<div class="product-img">
+									<img src="images/products/prelay.jpg" alt="Reverse Power Relay">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Reverse Power Relay</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 25 -->
+							<div class="product-card alarms" data-product="25">
+								<div class="product-img">
+									<img src="images/products/jheater.jpg" alt="Jacket Heater">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Jacket Heater</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 26 -->
+							<div class="product-card alarms" data-product="26">
+								<div class="product-img">
+									<img src="images/products/awindings.jpg" alt="Alternator Windings">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Alternator Windings</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 26 -->
+							<div class="product-card alarms" data-product="26">
+								<div class="product-img">
+									<img src="images/products/conheater.jpg" alt="Anti-Condensation Heater">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Anti-Condensation Heaters</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 27 -->
+							<div class="product-card alarms" data-product="27">
+								<div class="product-img">
+									<img src="images/products/oheater.jpg" alt="Oil Heater">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Oil Heaters</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 28 -->
+							<div class="product-card control_panels" data-product="28">
+								<div class="product-img">
+									<img src="images/products/ppanel.jpg" alt="Pump Control Panel">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Pump Control Panel</h3>
+									<span class="product-category">Control Panels</span>
+								</div>
+							</div>
+
+							<!-- Product 29 -->
+							<div class="product-card control_panels" data-product="29">
+								<div class="product-img">
+									<img src="images/products/ats.jpg" alt="Automatic Transfer Switch Panel">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Automatic Transfer Switch Panel (ATS)</h3>
+									<span class="product-category">Control Panels</span>
+								</div>
+							</div>
+
+							<!-- Product 30 -->
+							<div class="product-card control_panels" data-product="30">
+								<div class="product-img">
+									<img src="images/products/bcharger.jpg" alt="Battery Charger">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Battery Charger</h3>
+									<span class="product-category">Control Panels</span>
+								</div>
+							</div>
+
+							<!-- Product 31 -->
+							<div class="product-card alarms" data-product="30">
+								<div class="product-img">
+									<img src="images/products/abb.jpg" alt="ABB">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">ABB Circuit Breakers</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 32 -->
+							<div class="product-card alarms" data-product="30">
+								<div class="product-img">
+									<img src="images/products/schnider.jpg" alt="Schneider">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Schneider Circuit Breakers</h3>
+									<span class="product-category">Alarm & Protection Systems</span>
+								</div>
+							</div>
+
+							<!-- Product 33 -->
+							<div class="product-card control_panels" data-product="33">
+								<div class="product-img">
+									<img src="images/products/cables.jpg" alt="Cable">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">High-quality Cables</h3>
+									<span class="product-category">Control Panels</span>
+								</div>
+							</div>
+
+							<!-- Product 34 -->
+							<div class="product-card duct" data-product="34">
+								<div class="product-img">
+									<img src="images/products/duct.jpg" alt="Duct">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Duct & Canvas</h3>
+									<span class="product-category">Ducting & Ventilation</span>
+								</div>
+							</div>
+
+							<!-- Product 35 -->
+							<div class="product-card duct" data-product="35">
+								<div class="product-img">
+									<img src="images/products/louver.jpg" alt="Louver">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Louver</h3>
+									<span class="product-category">Ducting & Ventilation</span>
+								</div>
+							</div>
+
+							<!-- Product 36 -->
+							<div class="product-card duct" data-product="35">
+								<div class="product-img">
+									<img src="images/products/mlouver.jpg" alt="Motorized Louver">
+								</div>
+								<div class="product-info">
+									<h3 class="product-title">Motorized Louver</h3>
+									<span class="product-category">Ducting & Ventilation</span>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Product Modals -->
+		<!-- Product 1 Modal -->
+		<div id="product-modal-1" class="product-modal">
+			<div class="product-modal-content">
+				<span class="product-modal-close">&times;</span>
+				<div class="product-modal-body">
+					<div class="product-modal-image">
+						<img src="images/products/dropover.jpg" alt="Industrial Diesel Generator">
+					</div>
+					<div class="product-modal-details">
+						<h3 class="product-modal-title">PEM-5000ID Industrial Generator</h3>
+						<span class="product-modal-category">Diesel / Industrial</span>
+						<p class="product-modal-desc">Heavy-duty 5000kVA diesel generator for continuous industrial use
+							with
+							advanced noise reduction technology. Designed for 24/7 operation in demanding environments.
+						</p>
+						<ul class="product-modal-specs">
+							<li><i class="fa fa-bolt"></i> <strong>Power:</strong> 5000kVA</li>
+							<li><i class="fa fa-cog"></i> <strong>Speed:</strong> 1500 RPM</li>
+							<li><i class="fa fa-shield"></i> <strong>Protection:</strong> IP55</li>
+							<li><i class="fa fa-tachometer"></i> <strong>Fuel Consumption:</strong> 120L/h at 75% load
+							</li>
+							<li><i class="fa fa-volume-off"></i> <strong>Noise Level:</strong> 75dB at 1m</li>
+							<li><i class="fa fa-cube"></i> <strong>Dimensions:</strong> 4500 × 1800 × 2200 mm</li>
+							<li><i class="fa fa-weight"></i> <strong>Weight:</strong> 6500 kg</li>
+						</ul>
+						<a href="#contact" class="button button-primary product-modal-button">Request Quote</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Product 2 Modal -->
+		<div id="product-modal-2" class="product-modal">
+			<div class="product-modal-content">
+				<span class="product-modal-close">&times;</span>
+				<div class="product-modal-body">
+					<div class="product-modal-image">
+						<img src="images/products/gen2.jpg" alt="Commercial Diesel Generator">
+					</div>
+					<div class="product-modal-details">
+						<h3 class="product-modal-title">PEM-800CD Commercial Generator</h3>
+						<span class="product-modal-category">Diesel / Commercial</span>
+						<p class="product-modal-desc">Reliable 800kVA diesel generator for commercial buildings with
+							automatic transfer switch. Perfect for offices, hospitals, and retail centers requiring
+							uninterrupted power.</p>
+						<ul class="product-modal-specs">
+							<li><i class="fa fa-bolt"></i> <strong>Power:</strong> 800kVA</li>
+							<li><i class="fa fa-cog"></i> <strong>Speed:</strong> 1500 RPM</li>
+							<li><i class="fa fa-shield"></i> <strong>Protection:</strong> IP54</li>
+							<li><i class="fa fa-tachometer"></i> <strong>Fuel Consumption:</strong> 65L/h at 75% load
+							</li>
+							<li><i class="fa fa-volume-off"></i> <strong>Noise Level:</strong> 78dB at 1m</li>
+							<li><i class="fa fa-cube"></i> <strong>Dimensions:</strong> 3200 × 1400 × 1800 mm</li>
+							<li><i class="fa fa-weight"></i> <strong>Weight:</strong> 3200 kg</li>
+						</ul>
+						<a href="#contact" class="button button-primary product-modal-button">Request Quote</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Product 3 Modal -->
+		<div id="product-modal-3" class="product-modal">
+			<div class="product-modal-content">
+				<span class="product-modal-close">&times;</span>
+				<div class="product-modal-body">
+					<div class="product-modal-image">
+						<img src="images/products/gen3.jpg" alt="Gas Generator">
+					</div>
+					<div class="product-modal-details">
+						<h3 class="product-modal-title">PEM-300GC Gas Generator</h3>
+						<span class="product-modal-category">Gas / Commercial</span>
+						<p class="product-modal-desc">Environmentally friendly 300kVA natural gas generator with low
+							emissions. Ideal for urban areas with strict environmental regulations.</p>
+						<ul class="product-modal-specs">
+							<li><i class="fa fa-bolt"></i> <strong>Power:</strong> 300kVA</li>
+							<li><i class="fa fa-cog"></i> <strong>Speed:</strong> 1500 RPM</li>
+							<li><i class="fa fa-leaf"></i> <strong>Emissions:</strong> Euro V compliant</li>
+							<li><i class="fa fa-tachometer"></i> <strong>Gas Consumption:</strong> 90m³/h at 75% load
+							</li>
+							<li><i class="fa fa-volume-off"></i> <strong>Noise Level:</strong> 72dB at 1m</li>
+							<li><i class="fa fa-cube"></i> <strong>Dimensions:</strong> 2800 × 1200 × 1600 mm</li>
+							<li><i class="fa fa-weight"></i> <strong>Weight:</strong> 2100 kg</li>
+						</ul>
+						<a href="#contact" class="button button-primary product-modal-button">Request Quote</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Product 4 Modal -->
+		<div id="product-modal-4" class="product-modal">
+			<div class="product-modal-content">
+				<span class="product-modal-close">&times;</span>
+				<div class="product-modal-body">
+					<div class="product-modal-image">
+						<img src="images/products/gen4.jpg" alt="Heavy Duty Generator">
+					</div>
+					<div class="product-modal-details">
+						<h3 class="product-modal-title">PEM-10000ID Heavy Duty Generator</h3>
+						<span class="product-modal-category">Diesel / Industrial</span>
+						<p class="product-modal-desc">10000kVA prime power diesel generator for mining and large
+							industrial
+							applications. Built for extreme conditions with enhanced cooling systems.</p>
+						<ul class="product-modal-specs">
+							<li><i class="fa fa-bolt"></i> <strong>Power:</strong> 10000kVA</li>
+							<li><i class="fa fa-cog"></i> <strong>Speed:</strong> 1000 RPM</li>
+							<li><i class="fa fa-shield"></i> <strong>Protection:</strong> IP56</li>
+							<li><i class="fa fa-tachometer"></i> <strong>Fuel Consumption:</strong> 240L/h at 75% load
+							</li>
+							<li><i class="fa fa-thermometer-full"></i> <strong>Cooling:</strong> Radiator with 4 fans
+							</li>
+							<li><i class="fa fa-cube"></i> <strong>Dimensions:</strong> 6500 × 2500 × 3000 mm</li>
+							<li><i class="fa fa-weight"></i> <strong>Weight:</strong> 12000 kg</li>
+						</ul>
+						<a href="#contact" class="button button-primary product-modal-button">Request Quote</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="product-modal-1" class="product-modal">
+			<div class="product-modal-content">
+				<span class="product-modal-close" data-i18n="close">×</span>
+				<div class="product-modal-body">
+					<!-- other modal content with data-i18n attributes -->
+					<h3 class="product-modal-title" data-i18n="product1Title">PEM-5000ID Industrial Generator</h3>
+					<span class="product-modal-category" data-i18n="product1Category">Diesel / Industrial</span>
+					<p class="product-modal-desc" data-i18n="product1Desc">Heavy-duty 5000kVA diesel generator...</p>
+					<a href="#contact" class="button button-primary product-modal-button"
+						data-i18n="requestQuote">Request
+						Quote</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Product 5 Modal -->
+		<div id="product-modal-5" class="product-modal">
+			<div class="product-modal-content">
+				<span class="product-modal-close">&times;</span>
+				<div class="product-modal-body">
+					<div class="product-modal-image">
+						<img src="images/products/gen5.jpg" alt="Portable Generator">
+					</div>
+					<div class="product-modal-details">
+						<h3 class="product-modal-title">PEM-50PR Portable Generator</h3>
+						<span class="product-modal-category">Portable / Residential</span>
+						<p class="product-modal-desc">Compact 50kVA portable generator for residential and small
+							business
+							use. Features easy-start technology and integrated wheels for mobility.</p>
+						<ul class="product-modal-specs">
+							<li><i class="fa fa-bolt"></i> <strong>Power:</strong> 50kVA</li>
+							<li><i class="fa fa-cog"></i> <strong>Speed:</strong> 1800 RPM</li>
+							<li><i class="fa fa-truck"></i> <strong>Mobility:</strong> Integrated wheels and handles
+							</li>
+							<li><i class="fa fa-tachometer"></i> <strong>Fuel Consumption:</strong> 12L/h at 75% load
+							</li>
+							<li><i class="fa fa-volume-off"></i> <strong>Noise Level:</strong> 68dB at 1m</li>
+							<li><i class="fa fa-cube"></i> <strong>Dimensions:</strong> 1800 × 800 × 1000 mm</li>
+							<li><i class="fa fa-weight"></i> <strong>Weight:</strong> 650 kg</li>
+						</ul>
+						<a href="#contact" class="button button-primary product-modal-button">Request Quote</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section> <!-- end products -->
+	<!-- Latest News Section -->
+	<section id="latest-news">
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+			<div class="col-full">
+				<h3 data-i18n="newsTitle">Latest News</h3>
+				<h1 style="color: white;" data-i18n="newsSubtitle">Company Updates & Projects</h1>
+				<p class="lead" data-i18n="newsDescription">Stay informed about our latest developments.</p>
+			</div>
+		</div>
+
+		<div class="row news-content animate-this">
+			<div class="col-full">
+				<div class="news-carousel-container">
+					<div class="news-carousel" id="news-carousel">
+						<!-- News cards will be inserted here by JavaScript -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="news-modal" class="news-modal">
+		<div class="news-modal-content">
+			<span class="news-modal-close">&times;</span>
+			<div class="news-modal-body">
+				<!-- Image Gallery Container -->
+				<div class="news-modal-gallery" id="modal-gallery"></div>
+
+				<div class="news-modal-details">
+					<span id="modal-category" class="news-modal-category"></span>
+					<h2 id="modal-title" class="news-modal-title"></h2>
+					<span id="modal-date" style="font-size: small; color: rgb(151, 151, 151);"></span>
+
+					<div id="modal-content" class="news-modal-content-text">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Blog Section
+	================================================== -->
+	<section class="blog-section" id="blog">
+		<div class="container">
+			<div class="row narrow section-intro with-bottom-sep animate-this">
+				<div class="col-full">
+					<h1 data-i18n="blogTitle">Blog Posts</h1>
+					<p class="lead" data-i18n="blogDescription">Stay informed about our latest developments.</p>
+
+				</div>
+			</div>
+			<div class="blog-grid animate-this" id="blog-grid">
+				<!-- Cards will be inserted here by JavaScript -->
+			</div>
+			<div class="text-center">
+				<a href="blogs.html" class="button button-primary" data-i18n="viewAllArticles" target="_blank">View All
+					Articles</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- portfolio
+   ================================================== -->
+	<section id="portfolio">
+		<div class="intro-wrap">
+			<div class="row narrow section-intro with-bottom-sep animate-this">
+				<div class="col-twelve">
+					<h3 data-i18n="portfolioTitle">Showcase</h3>
+					<h1 data-i18n="portfolioSubtitle">See Our Featured Projects.</h1>
+
+				</div>
+			</div>
+		</div>
+		<div class="row portfolio-content">
+			<div class="col-twelve">
+				<div id="folio-wrap" class="bricks-wrapper">
+
+					<!-- Fuel Tank -->
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/gallery/inner/g1.jpg" data-sub-html="#01">
+							<a href="#" class="overlay">
+								<img src="images/gallery/g1.JPG" alt="Fuel Tank">
+								<div class="item-text">
+									<span class="folio-types" data-i18n="portfolio.category.fuelSystems">Fuel
+										Systems</span>
+									<h3 class="folio-title" data-i18n="portfolio.title.fuelTank">Fuel Tank</h3>
+								</div>
+							</a>
+						</div>
+						<div id="01" class='hide'>
+							<h4 data-i18n="portfolio.title.undergroundFuelTank">Underground Fuel Tank</h4>
+							<p data-i18n="portfolio.desc.undergroundFuelTank">This image showcases one of our projects
+								featuring
+								the installation of a large underground fuel storage tank, securely placed within a
+								reinforced
+								concrete containment pit with top-mounted access ports for maintenance and inspection.
+							</p>
+						</div>
+					</div>
+
+					<!-- Diesel Generator -->
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/gallery/g2.jpg" data-sub-html="#02">
+							<a href="#" class="overlay">
+								<img src="images/gallery/inner/g2.jpg" alt="Diesel Generator">
+								<div class="item-text">
+									<span class="folio-types" data-i18n="portfolio.category.dieselGenerators">Diesel
+										Generators</span>
+									<h3 class="folio-title" data-i18n="portfolio.title.generatorInstall">Diesel
+										Generator
+										Installation</h3>
+								</div>
+							</a>
+						</div>
+						<div id="02" class='hide'>
+							<h4 data-i18n="portfolio.title.generatorInstall">Diesel Generator Installation</h4>
+							<p data-i18n="portfolio.desc.generatorInstall">High-capacity Cummins power generator,
+								mounted
+								securely on vibration isolators to ensure stable and efficient operation within a
+								dedicated
+								generator room.</p>
+						</div>
+					</div>
+
+					<!-- Fuel Transfer System -->
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/gallery/inner/g3.jpg" data-sub-html="#03">
+							<a href="#" class="overlay">
+								<img src="images/gallery/g3.jpg" alt="Fuel Transfer System">
+								<div class="item-text">
+									<span class="folio-types" data-i18n="portfolio.category.fuelTransfer">Fuel Transfer
+										System</span>
+									<h3 class="folio-title" data-i18n="portfolio.title.fuelSystems">Fuel Systems</h3>
+								</div>
+							</a>
+						</div>
+						<div id="03" class='hide'>
+							<h4 data-i18n="portfolio.title.fuelSystems">Fuel Systems</h4>
+							<p data-i18n="portfolio.desc.fuelSystems">Installation of a fuel transfer pump system,
+								complete with
+								precision piping, valves, and control components to ensure reliable and efficient fuel
+								flow
+								between storage tanks.</p>
+						</div>
+					</div>
+
+					<!-- Exhaust System -->
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/gallery/g4.jpg" data-sub-html="#04">
+							<a href="#" class="overlay">
+								<img src="images/gallery/g4.jpg" alt="Exhaust System">
+								<div class="item-text">
+									<span class="folio-types" data-i18n="portfolio.category.exhaustSystem">Exhaust
+										System</span>
+									<h3 class="folio-title" data-i18n="portfolio.title.exhaustSystem">Exhaust System
+									</h3>
+								</div>
+							</a>
+						</div>
+						<div id="04" class='hide'>
+							<h4 data-i18n="portfolio.title.exhaustSystem">Exhaust System</h4>
+							<p data-i18n="portfolio.desc.exhaustSystem">Installation of a complete exhaust system,
+								designed to
+								safely discharge engine emissions. The setup includes high-temperature exhaust piping,
+								secure
+								wall penetrations, vibration isolators, and proper routing to ensure optimal ventilation
+								and
+								compliance with safety and environmental standards.</p>
+						</div>
+					</div>
+
+					<!-- Electrical Control Panel -->
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/gallery/g5.jpg" data-sub-html="#05">
+							<a href="#" class="overlay">
+								<img src="images/gallery/g5.jpg" alt="Electrical Control Panel">
+								<div class="item-text">
+									<span class="folio-types" data-i18n="portfolio.category.electrical">Electrical
+										Systems</span>
+									<h3 class="folio-title" data-i18n="portfolio.title.controlPanel">Electrical Control
+										Panel
+									</h3>
+								</div>
+							</a>
+						</div>
+						<div id="05" class='hide'>
+							<h4 data-i18n="portfolio.title.controlPanel">Electrical Control Panel</h4>
+							<p data-i18n="portfolio.desc.controlPanel">Installation of an electrical control panel,
+								designed for
+								reliable power distribution and system management.</p>
+						</div>
+					</div>
+
+					<!-- Exhaust Pipes -->
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/gallery/g6.jpg" data-sub-html="#06">
+							<a href="#" class="overlay">
+								<img src="images/gallery/g6.jpg" alt="Exhaust Pipes">
+								<div class="item-text">
+									<span class="folio-types" data-i18n="portfolio.category.exhaustSystem">Exhaust
+										System</span>
+									<h3 class="folio-title" data-i18n="portfolio.title.exhaust">Exhaust</h3>
+								</div>
+							</a>
+						</div>
+						<div id="06" class='hide'>
+							<h4 data-i18n="portfolio.title.exhaust">Exhaust</h4>
+							<p data-i18n="portfolio.desc.exhaust">A project featuring multiple high-temperature exhaust
+								pipes
+								for generators, carefully routed to ensure safe emission discharge and efficient
+								ventilation
+								within the facility.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- clients
+   ================================================== -->
+	<section id="clients">
+		<div class="row animate-this">
+			<div class="col-twelve">
+				<div class="row narrow section-intro with-bottom-sep animate-this">
+					<div class="col-twelve">
+						<h3 style="color: rgb(101, 101, 101);" data-i18n="clientsTitle">Some of Our Clients</h3>
+						<h1 data-i18n="clientsSubtitle">We are trusted by the best</h1>
+					</div>
+				</div>
+				<div class="client-lists owl-carousel">
+
+
+					<div><a href="https://www.mitsubishimotors-eg.com/ar" target="_blank"><img
+								src="images/clients/mit.png" alt=""> </a>
+					</div>
+
+					<div><a href="https://www.cummins.com/" target="_blank"><img src="images/clients/cummins.png"
+								alt=""> </a></div>
+
+					<div><a href="http://www.nspo.com.eg/nspo/ar/index.html" target="_blank"><img
+								src="images/clients/national.png" alt=""> </a></div>
+
+					<div><a href="https://portable.kohlerpower.com/en/sdmo-generating-sets-pxl-13_81.html"
+							target="_blank"><img src="images/clients/SDMO-logo.png" alt="">
+						</a></div>
+
+					<div><a href="https://www.alstom.com/alstom-egypt" target="_blank"><img
+								src="images/clients/Alstom_logo.svg.png" alt="">
+						</a></div>
+
+					<div><a href="https://www.hassanallam.com/" target="_blank"><img src="images/clients/hassan.png"
+								alt="">
+						</a></div>
+				</div>
+			</div>
+	</section>
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+		<div class="overlay"></div>
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+			<div class="col-twelve">
+				<h3 data-i18n="contactTitle">Contact</h3>
+				<h1 data-i18n="contactSubtitle">Get In Touch.</h1>
+				<p class="lead" data-i18n="contactText">We are here to assist you with any inquiries or support
+					you may need. Feel free to reach out to us through the form below or via the provided contact
+					details. Your satisfaction is our priority.</p>
+			</div>
+		</div>
+
+		<div class="row contact-content">
+			<div class="col-seven tab-full animate-this">
+				<h5 data-i18n="factoryLocation">Factory Location</h5>
+				<div class="map-container">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.5510251695346!2d31.0521375!3d30.0565502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841819784ceff%3A0xae0c39c6cd566f2a!2zUG93ZXIgRWxlY3RybyBNZWNoYW5pY2FsIC0gUEVNINmE2YTYqtmI2LHZitiv2KfYqiDZiCDYp9mE2YXZgtin2YjZhNin2Ko!5e1!3m2!1sen!2seg!4v1747250862819!5m2!1sen!2seg"
+						width="100%" height="400" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+					<br>
+					<h5 data-i18n="officeLocation">Office Location</h5>
+
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.804112323201!2d31.057559235227725!3d30.060574745018005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145845e7dc83b7cb%3A0xed44cde89b25dde9!2z2YXZhti32YLYqSDYp9io2YjYsdmI2KfYtCDYp9mE2LXZhtin2LnZitip!5e1!3m2!1sen!2seg!4v1747251311820!5m2!1sen!2seg"
+						width="100%" height="400" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+
+
+
+			<div class="col-four tab-full contact-info end animate-this">
+				<h5 data-i18n="contactInfo">Contact Information</h5>
+				<div class="cinfo">
+					<h6 data-i18n="ourOffice">our office</h6>
+					<p data-i18n="officeAddress"></p>
+					<h6 data-i18n="ourFactory">our factory</h6>
+
+					<p data-i18n="factoryAddress"></p>
+				</div>
+				<div class="cinfo">
+					<h6 data-i18n="emailUs">Email Us At</h6>
+					<p>
+						sales@pem-eg.com<br>
+						support@pem-eg.com
+					</p>
+				</div>
+				<div class="cinfo">
+					<h6 data-i18n="callUs">Call Us At</h6>
+					<p>
+						Mobile: +201060274759
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+		<div class="footer-main">
+			<div class="row">
+				<div class="col-five tab-full footer-about">
+					<h4 class="h05" data-i18n="companyName">P.E.M.</h4>
+					<p data-i18n="footerAbout">P.E.M specializes in providing high-quality diesel generators, fuel
+						systems, electrical panels, and steel fabrication solutions. We are committed to delivering
+						reliable and efficient power solutions tailored to your needs.</p>
+				</div>
+
+				<div class="col-three tab-full footer-social">
+					<h4 class="h05" data-i18n="followUs">Follow Us.</h4>
+					<ul class="list-links">
+						<li><a href="https://www.facebook.com/pem.power3/" target="_blank"
+								data-i18n="facebook">Facebook</a></li>
+						<li><a href="https://www.linkedin.com/company/power-electro-mechanical-pem/" target="_blank"
+								data-i18n="linkedin">LinkedIn</a></li>
+					</ul>
+				</div>
+
+				<div class="col-four tab-full footer-subscribe end">
+					<h4 class="h05" data-i18n="getNotified">Get Notified.</h4>
+
+					<div class="subscribe-form">
+						<form id="mc-form" class="group" novalidate="true">
+							<input type="email" value="" name="dEmail" class="email" id="mc-email"
+								data-i18n-placeholder="emailPlaceholder" placeholder="type email" required="">
+							<button><i class="icon-mail"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="row">
+				<div class="col-twelve">
+					<div class="copyright">
+						<span data-i18n="copyright">© Copyright P.E.M 2025.</span>
+						<span data-i18n="allRightsReserved">All rights reserved.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="go-top">
+			<a class="smoothscroll" title="Back to Top" href="#top">
+				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+			</a>
+		</div>
+	</footer>
+
+	<!-- Social Bubbles Container -->
+	<div class="social-bubbles">
+		<div class="messenger-bubble">
+			<a href="https://m.me/pem.power3" target="_blank" rel="noopener">
+				<img src="https://static.xx.fbcdn.net/rsrc.php/yb/r/M8rOX7S5AN3.svg" alt="Messenger">
+			</a>
+		</div>
+		<div class="whatsapp-bubble">
+			<a href="https://wa.me/+201060274759" target="_blank" rel="noopener">
+				<img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp">
+			</a>
+		</div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/language.js"></script>
+</body>
+
+</html>

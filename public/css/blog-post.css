@@ -1,0 +1,240 @@
+.blog-post-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.loading-state,
+.error-state {
+    text-align: center;
+    padding: 2rem;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #ff6900;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.blog-post {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.post-header {
+    padding: 2rem;
+    text-align: center;
+}
+
+.post-category {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: #ff6900;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.post-title {
+    margin: 1rem 0;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.post-image {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-footer {
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background: #000000;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #e55d00;
+}
+
+/* RTL support */
+html[dir="rtl"] .post-header,
+html[dir="rtl"] .post-footer {
+    text-align: right;
+}
+
+
+/* Gallery */
+
+
+/* --- Responsive Blog Image Gallery --- */
+
+.news-modal-gallery {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+/* 1 Image: Full-width, max height */
+.news-modal-gallery[data-image-count="1"] {
+    grid-template-columns: 1fr;
+}
+
+.news-modal-gallery[data-image-count="1"] .gallery-img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* 2 Images: 2 equal columns */
+.news-modal-gallery[data-image-count="2"] {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.news-modal-gallery[data-image-count="2"] .gallery-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* 3 Images: One large top image, two below */
+.news-modal-gallery[data-image-count="3"] {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+}
+
+.news-modal-gallery[data-image-count="3"] .gallery-img:first-child {
+    grid-column: span 2;
+    height: 350px;
+    object-fit: cover;
+}
+
+.news-modal-gallery[data-image-count="3"] .gallery-img:not(:first-child) {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 4 Images: Uniform 2x2 grid */
+.news-modal-gallery[data-image-count="4"] {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.news-modal-gallery[data-image-count="4"] .gallery-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* 5+ Images: Flexible auto-fill grid */
+.news-modal-gallery[data-image-count]:not([data-image-count="1"]):not([data-image-count="2"]):not([data-image-count="3"]):not([data-image-count="4"]) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.news-modal-gallery[data-image-count]:not([data-image-count="1"]):not([data-image-count="2"]):not([data-image-count="3"]):not([data-image-count="4"]) .gallery-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Common styles for all images */
+.gallery-img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-color: #f5f5f5;
+}
+
+.gallery-img:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .news-modal-gallery {
+        grid-template-columns: 1fr !important;
+        gap: 10px;
+    }
+
+    .news-modal-gallery .gallery-img {
+        height: auto !important;
+        max-height: 300px;
+        grid-column: span 1 !important;
+    }
+
+    .news-modal-gallery[data-image-count="1"] .gallery-img {
+        max-height: 350px;
+    }
+}
+
+/* Ultra-wide screens */
+@media (min-width: 1600px) {
+    .news-modal-gallery[data-image-count="1"] .gallery-img {
+        max-height: 600px;
+    }
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    cursor: zoom-out;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}

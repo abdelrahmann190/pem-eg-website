@@ -1,0 +1,96 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "date": "2023-05-15",
+            "images": [
+                "images/news/award.jpg",
+                "images/news/award.jpg",
+                "images/news/award.jpg"
+            ],
+            "translations": {
+                "en": {
+                    "title": "New Generator Model Released",
+                    "excerpt": "We're proud to announce our latest generator model...",
+                    "category": "Announcement",
+                    "content": "Full article content here..."
+                },
+                "ar": {
+                    "title": "إطلاق نموذج مولد جديد",
+                    "excerpt": "نفخر بالإعلان عن أحدث نموذج مولد لدينا...",
+                    "category": "إعلان",
+                    "content": "محتوى المقال الكامل هنا..."
+                }
+            }
+        },
+        {
+            "id": 1,
+            "date": "2023-05-15",
+            "images": [
+                "images/news/award.jpg",
+                "images/news/award.jpg",
+                "images/news/award.jpg"
+            ],
+            "translations": {
+                "en": {
+                    "title": "New Generator Model Released",
+                    "excerpt": "We're proud to announce our latest generator model...",
+                    "category": "Announcement",
+                    "content": "Full article content here..."
+                },
+                "ar": {
+                    "title": "إطلاق نموذج مولد جديد",
+                    "excerpt": "نفخر بالإعلان عن أحدث نموذج مولد لدينا...",
+                    "category": "إعلان",
+                    "content": "محتوى المقال الكامل هنا..."
+                }
+            }
+        },
+        {
+            "id": 1,
+            "date": "2023-05-15",
+            "images": [
+                "images/news/award.jpg",
+                "images/news/award.jpg",
+                "images/news/award.jpg"
+            ],
+            "translations": {
+                "en": {
+                    "title": "New Generator Model Released",
+                    "excerpt": "We're proud to announce our latest generator model...",
+                    "category": "Announcement",
+                    "content": "Full article content here..."
+                },
+                "ar": {
+                    "title": "إطلاق نموذج مولد جديد",
+                    "excerpt": "نفخر بالإعلان عن أحدث نموذج مولد لدينا...",
+                    "category": "إعلان",
+                    "content": "محتوى المقال الكامل هنا..."
+                }
+            }
+        },
+        {
+            "id": 1,
+            "date": "2023-05-15",
+            "images": [
+                "images/news/award.jpg",
+                "images/news/award.jpg",
+                "images/news/award.jpg"
+            ],
+            "translations": {
+                "en": {
+                    "title": "New Generator Model Released",
+                    "excerpt": "We're proud to announce our latest generator model...",
+                    "category": "Announcement",
+                    "content": "Full article content here..."
+                },
+                "ar": {
+                    "title": "إطلاق نموذج مولد جديد",
+                    "excerpt": "نفخر بالإعلان عن أحدث نموذج مولد لدينا...",
+                    "category": "إعلان",
+                    "content": "محتوى المقال الكامل هنا..."
+                }
+            }
+        }
+    ]
+}

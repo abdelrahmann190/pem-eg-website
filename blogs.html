@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    const lang = navigator.language || 'en';
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang.startsWith('ar') ? 'rtl' : 'ltr';
+</script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="blogsTitle">Our Blog - P.E.M</title>
+    <!-- Add your CSS links here -->
+    <link rel="stylesheet" href="css/blogs.css">
+</head>
+
+<body>
+    <section id="blog-listing">
+        <div class="container">
+            <div class="section-header">
+                <h1 data-i18n="blogHeading">Latest Articles</h1>
+                <p class="subtitle" data-i18n="blogSubtitle">Stay updated with our news and technical articles</p>
+            </div>
+
+            <!-- Loading state -->
+            <div class="loading-state" id="loading">
+                <div class="spinner"></div>
+                <p data-i18n="loadingBlog">Loading articles...</p>
+            </div>
+
+            <!-- Error state (hidden by default) -->
+            <div class="error-state" id="error" style="display: none;">
+                <i class="fa fa-exclamation-triangle"></i>
+                <p data-i18n="loadError">Failed to load articles. Please try again later.</p>
+            </div>
+
+            <!-- Blog posts grid -->
+            <div class="blog-grid" id="blog-grid">
+                <!-- Articles will be inserted here by JavaScript -->
+
+                <!-- No articles message (hidden by default) -->
+                <div class="no-articles" id="no-articles" style="display: none;">
+                    <p data-i18n="noArticles">No articles found.</p>
+                </div>
+            </div>
+
+            <!-- Category filter -->
+            <div class="category-filter">
+                <span data-i18n="filterBy">Filter by:</span>
+                <select id="category-filter">
+                    <option value="all" data-i18n="allCategories">All Categories</option>
+                    <!-- Categories will be populated by JavaScript -->
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/blogs.js"></script>
+</body>
+
+</html>
