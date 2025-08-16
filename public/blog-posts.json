@@ -85,6 +85,27 @@
                     "category": "كباينات العزل"
                 }
             }
+        },{
+    "id": 0,
+    "title": "About Power Electromechanical (PEM)",
+    "excerpt": "PEM provides reliable, high-performance power generator solutions along with full technical services to ensure uninterrupted production.",
+    "content": "<p>Power Electromechanical (PEM) is a specialized engineering company that provides reliable, high-performance power generator solutions for industrial and commercial sectors. <br><br> PEM was founded with the mission to ensure uninterrupted production for companies, factories, and construction sites. <br><br> In addition to supplying generators, PEM offers a full range of technical services, including: <br> • Preventive maintenance and emergency support 24/7 <br> • Manufacturing and installation of soundproof canopies <br> • Customized power solutions tailored to client needs <br> • Long-term service contracts and technical consultations <br><br> With a strong commitment to quality and customer satisfaction, PEM strives to deliver innovative, efficient, and durable solutions that keep your business running without interruption.</p>",
+    "date": "2025-05-10",
+    "images": [
+        "https://i.postimg.cc/3Rw15wk6/pem-logo.jpg"
+    ],
+    "author": "- Admin ",
+    "category": "Company Profile",
+    "url": "blog-post.html?id=0",
+    "translations": {
+        "ar": {
+            "title": "عن شركة باور إلكترو ميكانيكال (PEM)",
+            "excerpt": "تقدم شركة PEM حلولاً موثوقة وعالية الأداء للمولدات الكهربائية بالإضافة إلى خدمات فنية متكاملة لضمان استمرار الإنتاج دون انقطاع.",
+            "content": "<p>باور إلكترو ميكانيكال (PEM) هي شركة هندسية متخصصة تقدم حلولاً موثوقة وعالية الأداء في مجال المولدات الكهربائية للقطاعات الصناعية والتجارية. <br><br> تأسست PEM بهدف ضمان استمرار الإنتاج للشركات والمصانع ومواقع الإنشاءات دون انقطاع. <br><br> بالإضافة إلى توريد المولدات، توفر PEM مجموعة كاملة من الخدمات الفنية، تشمل: <br> • الصيانة الوقائية والدعم الطارئ على مدار الساعة <br> • تصنيع وتركيب كباينات عزل الصوت <br> • حلول طاقة مخصصة حسب احتياجات العملاء <br> • عقود صيانة طويلة الأجل واستشارات فنية <br><br> من خلال التزامها بالجودة ورضا العملاء، تسعى PEM إلى تقديم حلول مبتكرة وفعالة ومتينة تضمن استمرار عملك دون توقف.</p>",
+            "category": "نبذة عن الشركة"
         }
+    }
+}
+
     ]
 }
