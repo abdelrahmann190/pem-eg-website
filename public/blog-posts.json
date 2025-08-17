@@ -82,30 +82,37 @@
                     "title": "كابينات العزل: Container Canopy",
                     "excerpt": "تستخدم كابينات العزل لحماية المولدات من العوامل البيئية، وتقليل الضوضاء، وتسهيل الوصول للصيانة، وتنظيم التهوية.",
                     "content": "<p>وهي عبارة عن حاوية شحن معدّلة (عادة 20–40 قدم) تم تكييفها لتصبح غرفة عزل متكاملة للمولدات الكبيرة، بالإضافة إلى أنها توفر بيئة تشغيل محكمة، تشمل مساحة للمولد، وخزان الوقود، ونظام التبريد، ولوحات التحكم. <br><strong>الاستخدام</strong><br> مولدات صناعية وثقيلة تُشغّل في مواقع طارئة أو دائمة (مصانع، مواقع نفط وغاز، مستشفيات ميدانية). <br> مناسبة للنقل البحري أو البري بفضل الهيكل الموحد للحاوية. <br><strong>التركيب</strong><br> تُركّب على قاعدة خرسانية أو أساس فولاذي مجهّز بنقاط رفع وشقوق للشاحنات والرافعات. <br> جدران فولاذية سميكة معزولة حرارياً وصوتياً، ومزودة بنظام تهوية ولوحات خدمة وأبواب وصول كبيرة. <br><strong>المزايا والعيوب</strong><br><strong>المزايا:</strong> حماية ممتازة من الطقس والأتربة والضوضاء، سهولة النقل والتركيب كنظام جاهز Plug-and-Play <br><strong>العيوب:</strong> تكلفة أولية عالية ، يتطلب مساحة كبيرة في الموقع.</p>",
-                    "category": "كباينات العزل"
+                    "category": "كابينات العزل"
                 }
             }
         },{
-    "id": 0,
-    "title": "About Power Electromechanical (PEM)",
-    "excerpt": "PEM provides reliable, high-performance power generator solutions along with full technical services to ensure uninterrupted production.",
-    "content": "<p>Power Electromechanical (PEM) is a specialized engineering company that provides reliable, high-performance power generator solutions for industrial and commercial sectors. <br><br> PEM was founded with the mission to ensure uninterrupted production for companies, factories, and construction sites. <br><br> In addition to supplying generators, PEM offers a full range of technical services, including: <br> • Preventive maintenance and emergency support 24/7 <br> • Manufacturing and installation of soundproof canopies <br> • Customized power solutions tailored to client needs <br> • Long-term service contracts and technical consultations <br><br> With a strong commitment to quality and customer satisfaction, PEM strives to deliver innovative, efficient, and durable solutions that keep your business running without interruption.</p>",
-    "date": "2025-05-10",
-    "images": [
-        "https://postimg.cc/F7CDqg4B"
-    ],
-    "author": "- Admin ",
-    "category": "Company Profile",
-    "url": "blog-post.html?id=0",
-    "translations": {
+  "posts": [
+    {
+      "id": 4,
+      "title": "Electrical Generator Systems – Everything You Need to Know",
+      "excerpt": "Learn the basics of electrical generators, why they are widely used in Egypt, how to choose the right one, and the most common problems you should avoid.",
+      "content": "<p><strong>What is an Electrical Generator?</strong><br> An electrical generator is a device that converts mechanical energy into electrical energy. It consists of two main parts: <br> • Prime mover: Works with fuel to produce mechanical energy. <br> • Alternator: Converts mechanical energy into electricity. <br> These two parts are assembled together to form one device.<br><br> <strong>Why Do We Use Generators in Egypt?</strong><br> In Egypt, generators have become the fastest solution to supply electricity, especially in factories, hospitals, cooling companies, and construction sites. <br> <em>Why are they popular?</em> <br> • Easy to obtain. <br> • Can be installed quickly. <br> • Availability of technicians for maintenance. <br> But in return, running a generator requires: <br> • High fuel cost. <br> • Complex periodic maintenance. <br> • Noise, vibration, and polluting emissions that require additional solutions.<br><br> <strong>When Do You Need a Generator?</strong><br> Generators can be used in 3 main cases: <br> 1. As a backup source for high-consumption facilities (such as AC factories or refrigeration systems). <br> 2. When alternatives are limited and no investment in other power sources is possible (such as emergencies). <br> 3. As a primary power source when the grid is unavailable or unstable.<br><br> <strong>Key Properties to Consider When Choosing a Generator</strong><br> 1. <u>Generator Capacity</u>: Usually asked in Watts (W), Kilowatts (KW), or Kilovolt-Amperes (KVA). <br> • W or KW: Actual consumed power. <br> • KVA: Apparent power. <br> Formula: P(W) = S(VA) × 0.8<br><br> 2. <u>ISO Classifications</u>: <br> • PRP (Prime Power): Variable load, unlimited hours, 10% overload allowed for a short period. <br> • COP (Continuous Power): Continuous use at a fixed load, no overload. <br> • ESP (Emergency Standby Power): For very short emergency use (up to 25 hours yearly). <br><br> 3. <u>Types of Loads</u>: <br> • Continuous load: Devices running constantly at the same power. <br> • Variable load: Devices changing power demand (e.g., factory machines).<br><br> <strong>How to Avoid Mistakes When Buying a Generator?</strong><br> • Don’t confuse KW with KVA. <br> • Calculate your actual consumption accurately. <br> • Consider power reduction in high temperature or altitude. <br> • Always consult a manufacturer or authorized dealer.<br><br> <strong>Most Common Generator Problems in Egypt</strong><br> • High fuel consumption → Solution: Use a properly sized generator, perform regular maintenance, install fuel management systems. <br> • Noise & vibration → Solution: Install soundproof canopies, use anti-vibration mounts, or isolate the generator in a soundproof room. <br> • Frequent breakdowns due to poor maintenance → Solution: Follow preventive maintenance schedules, contract professional companies, and use remote monitoring. <br> • Reduced efficiency over time.<br><br> <strong>Essential Tips Before Buying or Operating a Generator in Egypt</strong><br> 1. Determine your required capacity (KW/KVA). <br> 2. Choose the right ISO rating (PRP – COP – ESP). <br> 3. Prepare a preventive maintenance plan. <br> 4. Allocate an isolated place to reduce noise. <br> 5. Don’t only compare generator prices—consider operating & maintenance costs as well.</p>",
+      "date": "2025-08-17",
+      "images": [
+        "https://postimg.cc/F7GJ3z92",
+        "https://postimg.cc/9zd9X1sX"
+      ],
+      "author": "- Admin ",
+      "category": "Generator Basics",
+      "url": "blog-post.html?id=4",
+      "translations": {
         "ar": {
-            "title": "عن شركة باور إلكترو ميكانيكال (PEM)",
-            "excerpt": "تقدم شركة PEM حلولاً موثوقة وعالية الأداء للمولدات الكهربائية بالإضافة إلى خدمات فنية متكاملة لضمان استمرار الإنتاج دون انقطاع.",
-            "content": "<p>باور إلكترو ميكانيكال (PEM) هي شركة هندسية متخصصة تقدم حلولاً موثوقة وعالية الأداء في مجال المولدات الكهربائية للقطاعات الصناعية والتجارية. <br><br> تأسست PEM بهدف ضمان استمرار الإنتاج للشركات والمصانع ومواقع الإنشاءات دون انقطاع. <br><br> بالإضافة إلى توريد المولدات، توفر PEM مجموعة كاملة من الخدمات الفنية، تشمل: <br> • الصيانة الوقائية والدعم الطارئ على مدار الساعة <br> • تصنيع وتركيب كباينات عزل الصوت <br> • حلول طاقة مخصصة حسب احتياجات العملاء <br> • عقود صيانة طويلة الأجل واستشارات فنية <br><br> من خلال التزامها بالجودة ورضا العملاء، تسعى PEM إلى تقديم حلول مبتكرة وفعالة ومتينة تضمن استمرار عملك دون توقف.</p>",
-            "category": "نبذة عن الشركة"
+          "title": "أنظمة المولدات الكهربائية – كل ما تحتاج معرفته",
+          "excerpt": "تعرف على أساسيات المولدات الكهربائية، أسباب انتشارها في مصر، كيفية اختيار المولد المناسب، وأشهر المشاكل التي يجب تجنبها.",
+          "content": "<p><strong>ما هو المولد الكهربائي؟</strong><br> المولد الكهربائي هو جهاز يحول الطاقة الميكانيكية إلى طاقة كهربائية. يتكون من جزئين رئيسيين: <br> • محرك رئيسي: يعمل بالوقود ويُنتج الطاقة الميكانيكية. <br> • مولد كهربائي (مُبدّل): يحول الطاقة الميكانيكية إلى كهرباء. <br> ويتم تركيب هذين الجزئين معًا لتشكيل جهاز واحد.<br><br> <strong>لماذا نستخدم المولدات الكهربائية في مصر؟</strong><br> في مصر، المولدات أصبحت الحل الأسرع لتوفير الكهرباء خصوصًا في المصانع، المستشفيات، شركات التبريد، ومواقع البناء. <br> <em>ما الذي يجعلها شائعة؟</em> <br> • سهولة الحصول عليها. <br> • إمكانية تركيبها بسرعة. <br> • توافر فنيين لصيانتها. <br> لكن في المقابل، تشغيل المولد يحتاج إلى: <br> • تكلفة وقود عالية. <br> • صيانة دورية معقدة. <br> • تسبب ضوضاء واهتزازات وانبعاثات ملوِّثة تحتاج للتعامل معها.<br><br> <strong>متى تحتاج إلى مولد كهربائي؟</strong><br> يمكن استخدام المولد في 3 حالات رئيسية: <br> 1. كمصدر احتياطي للمنشآت عالية الاستهلاك (مثل مصانع التكييف أو أنظمة التبريد). <br> 2. في حالة محدودية البدائل (مثل الطوارئ). <br> 3. كمصدر طاقة أساسي عند غياب أو عدم استقرار الشبكة.<br><br> <strong>ما الخصائص التي يجب مراعاتها عند اختيار مولد؟</strong><br> 1. <u>قدرة المولد</u>: تقاس بالواط (W) أو الكيلوواط (KW) أو الكيلوفولت أمبير (KVA). <br> • W أو KW: القدرة الفعلية المستهلكة. <br> • KVA: القدرة الظاهرية. <br> معادلة: P(W) = S(VA) × 0.8<br><br> 2. <u>تصنيفات ISO</u>: <br> • PRP: طاقة أساسية، استخدام متغير، ساعات غير محدودة، مع سماح بزيادة قصيرة 10%. <br> • COP: تشغيل مستمر بحمل ثابت، بدون أي زيادة. <br> • ESP: طاقة احتياطية للطوارئ، حتى 25 ساعة سنويًا.<br><br> 3. <u>أنواع الأحمال</u>: <br> • الحمل المستمر: أجهزة تعمل باستمرار بنفس القدرة. <br> • الحمل المتقلب: أجهزة تتغير قدرتها حسب الاستخدام.<br><br> <strong>كيف تتجنب الأخطاء عند شراء مولد؟</strong><br> • لا تخلط بين KW و KVA. <br> • احسب استهلاكك الفعلي بدقة. <br> • ضع في اعتبارك انخفاض القدرة في الحرارة العالية أو المرتفعات. <br> • استشر الشركة المصنعة أو وكيل معتمد.<br><br> <strong>مشاكل المولدات الكهربائية الشائعة في مصر</strong><br> • ارتفاع استهلاك الوقود → الحل: اختيار مولد مناسب للحمل، صيانة دورية، تركيب أنظمة إدارة وقود. <br> • الضوضاء والاهتزازات → الحل: تركيب كانوبي عازل للصوت، استخدام موانع اهتزاز، تخصيص غرفة معزولة. <br> • الأعطال المتكررة بسبب سوء الصيانة → الحل: الالتزام بالصيانة الوقائية، التعاقد مع شركات متخصصة، تركيب أنظمة مراقبة عن بعد. <br> • قلة كفاءة التشغيل مع مرور الوقت.<br><br> <strong>نصائح أساسية قبل شراء أو تشغيل مولد في مصر</strong><br> 1. حدد قدرتك المطلوبة (KW أو KVA). <br> 2. اختر التصنيف المناسب (PRP – COP – ESP). <br> 3. ضع خطة صيانة دورية. <br> 4. خصص مكانًا معزولًا للضوضاء. <br> 5. لا تعتمد فقط على سعر المولد بل على تكاليف التشغيل والصيانة أيضًا.</p>",
+          "category": "المولدات الكهربائية"
+          "images": [
+            "https://postimg.cc/F7GJ3z92",
+            "https://postimg.cc/9zd9X1sX"
         }
+      }
     }
+  ]
 }
 
-    ]
-}
+        
