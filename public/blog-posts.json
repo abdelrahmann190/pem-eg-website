@@ -64,25 +64,6 @@
                     "category": "كباينات العزل"
                 }
             }
-        },
-        {
-            "id": 3,
-            "title": "Container Canopy: A Comprehensive Guide",
-            "excerpt": "Container canopies are used to protect generators from environmental factors, reduce noise, facilitate maintenance access, and regulate ventilation.",
-            "content": "<p>It is a modified shipping container (usually 20–40 feet) adapted to become a fully integrated isolation room for large generators, and it provides a sealed operating environment, including space for the generator, fuel tank, cooling system, and control panels. <br><strong>Usage</strong><br> Industrial and heavy-duty generators used in emergency or permanent locations (factories, oil and gas sites, field hospitals). <br> Suitable for sea or land transport thanks to the standardized container structure. <br><strong>Installation</strong><br> Installed on a concrete base or steel foundation equipped with lifting points and slots for trucks and cranes. <br> Thick steel walls insulated for heat and sound, equipped with a ventilation system, service panels, and large access doors. <br><strong>Advantages and Disadvantages</strong><br><strong>Advantages:</strong> Excellent protection from weather, dust, and noise; easy to transport and install as a ready-made Plug-and-Play system. <br><strong>Disadvantages:</strong> High initial cost; requires a large on-site footprint.</p>",
-            "date": "2025-05-14",
-            "images": [
-                "https://i.postimg.cc/B6CyNYRY/2.jpg"
-            ],
-            "author": "- Admin ",
-            "category": "Isolation Canopies",
-            "url": "blog-post.html?id=3",
-            "translations": {
-                "ar": {
-                    "title": "كابينات العزل: Container Canopy",
-                    "excerpt": "تستخدم كابينات العزل لحماية المولدات من العوامل البيئية، وتقليل الضوضاء، وتسهيل الوصول للصيانة، وتنظيم التهوية.",
-                    "content": "<p>وهي عبارة عن حاوية شحن معدّلة (عادة 20–40 قدم) تم تكييفها لتصبح غرفة عزل متكاملة للمولدات الكبيرة، بالإضافة إلى أنها توفر بيئة تشغيل محكمة، تشمل مساحة للمولد، وخزان الوقود، ونظام التبريد، ولوحات التحكم. <br><strong>الاستخدام</strong><br> مولدات صناعية وثقيلة تُشغّل في مواقع طارئة أو دائمة (مصانع، مواقع نفط وغاز، مستشفيات ميدانية). <br> مناسبة للنقل البحري أو البري بفضل الهيكل الموحد للحاوية. <br><strong>التركيب</strong><br> تُركّب على قاعدة خرسانية أو أساس فولاذي مجهّز بنقاط رفع وشقوق للشاحنات والرافعات. <br> جدران فولاذية سميكة معزولة حرارياً وصوتياً، ومزودة بنظام تهوية ولوحات خدمة وأبواب وصول كبيرة. <br><strong>المزايا والعيوب</strong><br><strong>المزايا:</strong> حماية ممتازة من الطقس والأتربة والضوضاء، سهولة النقل والتركيب كنظام جاهز Plug-and-Play <br><strong>العيوب:</strong> تكلفة أولية عالية ، يتطلب مساحة كبيرة في الموقع.</p>",
-                    "category": "كابينات العزل"
-                }
-            }
-       }
+        }
+    ]
+}
